@@ -5,6 +5,8 @@
 #include "Weapon.h"
 
 
+// TO DO : method : Weapon& changeWeapon(Weapon& newBoat)
+
 class Character {
     private:
     std::string m_name;

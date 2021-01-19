@@ -15,8 +15,6 @@ int main() {
     Weapon pirateShip("Basic pirate ship", 300, 40, 120); // name, health, attack, speed
     Weapon tradeShip("Wide tradeship", 400, 40, 40);
 
-    // I must add probability to miss based on opponent's speed, if not the speed feature is not enough to survive attacks
-    // I raised pirate ship's health instead
     // Idea : invisibly boost player's boat (.boost method)
     Character pirateCaptain("Pirate Capt'ain", pirateShip);
     Character merchant("Merchant", tradeShip);
